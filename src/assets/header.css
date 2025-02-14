@@ -1,0 +1,44 @@
+/* .header{ 
+    top: 0;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(71, 48, 18);
+    width: 100%;
+    height: 100px;    
+}*/
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up full viewport height */
+  }
+  
+  header {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute space between content and icons */
+    align-items: center; /* Vertically center content */
+  }
+  
+  .header-content {
+    text-align: center; /* Center the text horizontally */
+    flex-grow: 1; /* Allow content to take up available space */
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center; /* Vertically center icons */
+  }
+  
+  .bar-icon {
+    width: 30px;
+    cursor: pointer; /* Indicate it's clickable (even if non-functional) */
+  }
+  
+  .bar-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333; /* Example bar color */
+    margin-bottom: 5px;
+  }

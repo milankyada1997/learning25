@@ -1,0 +1,23 @@
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .about-us-box {
+    background-color: #f4f4f4;
+  }
+  
