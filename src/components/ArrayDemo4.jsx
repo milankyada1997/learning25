@@ -57,7 +57,7 @@ export const ArrayDemo4 = () => {
                 <td>
                     <span style={{color:emp.age==25 ? "green":"white"}}>{emp.age}</span>
                 </td>
-                <td style={{backgroundColor:emp.salary>=17000?"yellow":"black"}}>{emp.salary}</td>
+                <td style={{backgroundColor:emp.salary>=17000?"green":"black"}}>{emp.salary}</td>
                 <td style={{backgroundColor:emp.gender =="male"?"blue":"pink"}}>{emp.gender}</td>
               </tr>
             );

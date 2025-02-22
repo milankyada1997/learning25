@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const HotstarMovies = () => {
   return (
-    <div style={{textAlign:"center", height:"200px", backgroundColor:"blue", color:"white"}}>
+    <div style={{textAlign:"center", height:"200px", backgroundColor:"green", color:"white"}}>
        <h1>HOTSTAR MOVIES</h1>
        <ul>
         <li><Link to="/play/moneyheist">Money Heist</Link></li>

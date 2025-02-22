@@ -30,6 +30,14 @@ import { FormDemo2 } from './components/Form/FormDemo2';
 import { FormDemo3 } from './components/Form/FormDemo3';
 import { FormDemo4 } from './components/Form/FormDemo4';
 import { LoginForm } from './components/Form/LOginForm';
+import { ApiDemo } from './components/apis/ApiDemo';
+import { ApiDemo1 } from './components/apis/ApiDemo1';
+import { SearchMovie } from './components/Omdb/SearchMovie';
+import { MovieDetail } from './components/Omdb/MovieDetail';
+import { PostDemo1 } from './components/apis/PostDemo1';
+import { PostDemo2 } from './components/apis/PostDemo2';
+import { UserList } from './components/apis/UserList';
+import { UseEffectDemo } from './components/UseEffectDemo';
 
 
 function App() {
@@ -37,6 +45,14 @@ function App() {
   return (
 
       <div>
+
+        {/* <ArrayDemo1/> */}
+      
+        
+       
+        
+        
+        
         <Navbar/>
         <Routes>
           <Route path='/' element={<HotstarWelcome/>}/>
@@ -49,8 +65,19 @@ function App() {
           <Route path='/formdemo3' element ={<FormDemo3/>}>  </Route>
           <Route path='/formdemo4' element ={<FormDemo4/>}>  </Route>
           <Route path='/loginform' element ={<LoginForm/>}>  </Route>
+          <Route path='/apidemo' element ={<ApiDemo/>}>  </Route>
+          <Route path='/apidemo1' element ={<ApiDemo1/>}>  </Route>
+          <Route path='/searchmovie' element ={<SearchMovie/>}>  </Route>
+          <Route path='/moviedetail/:id'element={<MovieDetail/>}></Route>
+          <Route path='/postdemo1' element={<PostDemo1/>}></Route>
+          <Route path='/postdemo2' element={<PostDemo2/>}></Route>
+          <Route path='/userlist' element={<UserList/>}></Route>
+          <Route path='/useeffectdemo' element={<UseEffectDemo/>}></Route>
+
           <Route path='/*' element={<Error404/>}/>
         </Routes>
+
+
       </div>
       
     );

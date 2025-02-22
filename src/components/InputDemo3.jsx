@@ -53,7 +53,7 @@ export const InputDemo3 = () => {
     </div>
 
     <div>
-      <label>Gender: </label>
+      <label>Gender: onChange={(event)=>{genderHandler(event)}} </label>
       <input type='radio' id='male' name='gender' value="Male"></input>
       <label for="male">Male</label> <br/>
       <input type='radio' id='female' name='gender' value="Female"></input>  
@@ -67,6 +67,8 @@ export const InputDemo3 = () => {
         <option value="Female">Female</option>
         <option value="Other">Other</option>
       </select> */}
+
+      {gender}
     </div>
 
     <div>
