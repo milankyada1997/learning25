@@ -25,7 +25,7 @@ export const PostDemo1 = () => {
     }
   return (
     <div style={{textAlign:"center"}}>
-        <h1>POST DATA </h1>
+        <h1>POST DATA</h1>
         <button onClick={()=>{postData()}}>ADD</button>
     </div>
   )
